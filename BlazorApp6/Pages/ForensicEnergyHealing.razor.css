@@ -76,21 +76,60 @@
                     .forensic-content .content .text-content .button-container a:hover {
                         background-color: #8f784c;
                     }
+    @media (max-width: 500px) {
+        .forensic-content {
+            height: 100vh;
+            display: block;
+        }
 
+            .forensic-content .content {
+                display: block;
+                position: relative;
+                top: 10%;
+            }
+
+                .forensic-content .content .image img {
+                    justify-content: center;
+                    height: 100%;
+                    width: 50%;
+                    position: relative;
+                    bottom: 58vh;
+                }
+
+                .forensic-content .content .text-content p {
+                    position: relative;
+                    top: 20vh;
+                    font-size: 14px;
+                }
+
+                .forensic-content .content .text-content .button-container {
+                    position: relative;
+                    top: 200px;
+                    text-align: center;
+                }
+
+                .forensic-content .content .text-content h1 {
+                    top: 19vh;
+                    position: relative;
+                    text-align: center;
+                }
+    }
 @media (max-width: 400px) {
     .forensic-content {
         height: 100vh;
         display: block;
+    
     }
 
         .forensic-content .content {
             display: block;
             position: relative;
             top: 10%;
+           
         }
 
             .forensic-content .content .image img {
-                border: 1px solid red;
+  
                 justify-content: center;
                 height: 100%;
                 width: 50%;
@@ -107,10 +146,43 @@
             .forensic-content .content .text-content .button-container {
                 position: relative;
                 top: 150px;
+                text-align: center;
             }
 
             .forensic-content .content .text-content h1 {
                 top: 14vh;
                 position: relative;
+                text-align:center;
             }
+}
+@media (max-width: 300px) {
+    .forensic-content{
+        height:100vh;
+    }
+    .forensic-content .content .text-content h1 {
+        top: 14vh;
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .forensic-content .content .text-content p {
+        top: 14vh;
+        position: relative;
+        font-size: 10px;
+        text-align:center;
+    }
+    .forensic-content .content .image img {
+        
+        justify-content: center;
+        height: 100%;
+        width: 60%;
+        position: relative;
+        bottom: 55vh;
+    }
+    .forensic-content .content .text-content {
+       
+        text-align: center;
+    }
+
 }

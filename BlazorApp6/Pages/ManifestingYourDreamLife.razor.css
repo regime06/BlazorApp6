@@ -74,31 +74,77 @@
 .button-container a:hover {
     background-color: #8f784c;
 }
-
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .manifest-content {
         height: 100vh;
-        display: inline-block;
+        /*display: block;*/
     }
-
         .manifest-content .content {
-            display: block;
+            display: inline-block;
         }
 
             .manifest-content .content .image img {
                 /*border: 1px solid red;*/
                 justify-content: left;
-                height: 100%;
+                height: 80%;
                 width: 50%;
             }
 
             .manifest-content .content .text-content p {
-                font-size: 14px;
+                font-size: 15px;
                 text-align: center;
             }
+
             .manifest-content .content .text-content h1 {
-                /*font-size: 14px;*/
+                font-size: 20px;
                 text-align: center;
             }
-   
+            .manifest-content .content .text-content .button-container {
+            
+                text-align: center;
+            }
 }
+    @media (max-width: 400px) {
+        .manifest-content {
+            height: 100vh;
+            display: inline-block;
+        }
+
+            .manifest-content .content {
+                display: block;
+            }
+
+                .manifest-content .content .image img {
+                    /*border: 1px solid red;*/
+                    justify-content: left;
+                    height: 100%;
+                    width: 50%;
+                }
+
+                .manifest-content .content .text-content p {
+                    font-size: 15px;
+                    text-align: center;
+                }
+
+                .manifest-content .content .text-content h1 {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .manifest-content .content .text-content {
+                    /*font-size: 14px;*/
+                    text-align: center;
+                }
+    }
+
+    @media (max-width: 300px) {
+        .manifest-content .content .text-content p {
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .manifest-content .content .text-content h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+    }

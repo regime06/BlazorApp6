@@ -76,19 +76,49 @@
             .lovereborn-content .content .text-content .button-container a:hover {
                 background-color: #8f784c;
             }
+@media (max-width: 500px) {
+    .lovereborn-content {
+        height: 100vh;
+        /*display: block;*/
+    }
 
+        .lovereborn-content .content {
+            display: inline-block;
+        }
+
+            .lovereborn-content .content .image img {
+                /*border: 1px solid red;*/
+                justify-content: left;
+                height: 80%;
+                width: 50%;
+            }
+
+            .lovereborn-content .content .text-content p {
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .lovereborn-content .content .text-content h1 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .lovereborn-content .content .text-content .button-container {
+                text-align: center;
+            }
+}
 @media (max-width: 400px) {
     .lovereborn-content {
         height: 100vh;
         display: inline-block;
     }
 
-  .lovereborn-content  .content {
-        display: block;
-    }
+        .lovereborn-content .content {
+            display: block;
+        }
 
     .lovereborn-content .content .image img {
-        border: 1px solid red;
+
         justify-content: left;
         height: 100%;
         width: 50%;
@@ -96,5 +126,39 @@
 
     .lovereborn-content .content .text-content p {
         font-size: 14px;
+    }
+    .lovereborn-content .content .text-content
+    {
+        justify-content:center;
+        text-align:center;
+    }
+}
+
+@media (max-width: 300px) {
+    .lovereborn-content .content .text-content h1 {
+        /*top: 14vh;*/
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .lovereborn-content .content .text-content p {
+        /*top: 14vh;*/
+        position: relative;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .lovereborn-content .content .image img {
+  
+        justify-content: center;
+        height: 100%;
+        width: 50%;
+        position: relative;
+        /*bottom: 70vh;*/
+    }
+
+    .lovereborn-content .content .text-content {
+        text-align: center;
     }
 }

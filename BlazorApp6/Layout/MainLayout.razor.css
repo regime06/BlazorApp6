@@ -1,20 +1,24 @@
 /* Media Query for 390x840 cellphone */
 /* Media Query for 390x840 cellphone */
 /*@media (max-width: 1600px) {*/
-    .cw {
-        color: white;
-
-font-size: 15px;
+.sign-up {
+    color: white;
+    font-size: 15px;
 }
 /*}*/
-.c2 {
+.main-content {
     color: white;
     background-color: #11403D;
     font-size: 20px;
 }
-
+.footer-content {
+    position: relative;
+    /*bottom: 1000px;*/
+    background-color: #103F3C;
+    color: white;
+}
 @media (max-width: 400px) {
-    .c2 {
+    .main-content {
         /*border: 1px solid red;*/
         font-size: 11px;
         width: 100%;
@@ -24,7 +28,19 @@ font-size: 15px;
         font-size: 9px;
     }
 
-        .c2 a {
+        .main-content a {
             color: white;
         }
+}
+
+@media (max-width: 300px) 
+{
+    .sign-up 
+    {
+        color: white;
+        font-size: 6px;
+    }
+    .footer-content {
+        font-size: 9px;
+    }
 }

@@ -86,3 +86,22 @@
         color: red;
     }
 }
+
+@media (max-width: 300px)
+{
+    .nav-links li a {
+        font-size: 6px;
+        transition: color 0.3s ease;
+        align-content: center;
+        align-items: center;
+    }
+    .nav-links {
+       
+        gap: 15px;
+        
+    }
+    .logo img {
+        display:none;
+        
+    }
+}

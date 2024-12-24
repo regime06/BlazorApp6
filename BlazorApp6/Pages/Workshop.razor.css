@@ -115,7 +115,58 @@
                             font-size: 20px;
                             margin-right: 10px;
                         }
+@media (max-width: 500px) {
+    .workshop-content {
+        height: 100vh;
+        display: block;
+    }
 
+        .workshop-content .content {
+            display: block;
+            position: relative;
+            top: 10%;
+        }
+
+            .workshop-content .content .image img {
+                /*border: 1px solid red;*/
+                justify-content: center;
+                height: 100%;
+                width: 70%;
+                position: relative;
+                bottom: 89vh;
+            }
+
+            .workshop-content .content .text-content p {
+                position: relative;
+                top: 9vh;
+                font-size: 14px;
+            }
+
+            .workshop-content .content .text-content .button-container {
+                position: relative;
+                top: 60px;
+            }
+
+            .workshop-content .content .text-content h1 {
+                font-size: 15px;
+                position: relative;
+                top: 15vh;
+            }
+
+            .workshop-content .content .text-content .bullet-container {
+                width: 100%;
+                left: -60px;
+                /*border:1px solid red;*/
+                top: 13vh;
+                position: relative;
+                display: inline-block;
+                text-indent:5px;
+            }
+
+                .workshop-content .content .text-content .bullet-container h2 {
+                    font-size: 15px;
+                }
+}
 
 @media (max-width: 400px) {
     .workshop-content {
@@ -165,4 +216,61 @@
                 .workshop-content .content .text-content .bullet-container h2 {
                     font-size: 15px;
                 }
+}
+
+@media (max-width: 300px) {
+    /*.workshop-content .content .image img {*/
+        /*border: 1px solid red;*/
+        /*justify-content: center;
+        height: 100%;
+        width: 90%;
+        position: relative;
+        bottom: 130vh;
+    }*/
+    .workshop-content  {
+        display: inline-block;
+        position: relative;
+        /*border: 1px solid red;*/
+        margin:0;
+        padding:0;
+        
+    }
+    .workshop-content .content .text-content p {
+        position: relative;
+        /*top: 7vh;*/
+        font-size: 15px;
+    }
+        .workshop-content .content .text-content h1 {
+            position: relative;
+            top: 17vh;
+            font-size: 15px;
+
+        }
+        .workshop-content .content .text-content h2 {
+            position: relative;
+            top: 2vh;
+            left:5%;
+            font-size: 15px;
+        }
+     
+        .workshop-content .content .text-content .bullet-container ul li {
+            font-size: 10px;
+            text-align: left;
+            left: 15px;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+    .workshop-content .content .image img {
+        /*border: 1px solid red;*/
+        justify-content: center;
+        height: 100%;
+        width: 70%;
+        position: relative;
+        bottom: 70vh;
+    }
+        .workshop-content .content .text-content .button-container {
+            position: relative;
+            top: 50px;
+        }
 }

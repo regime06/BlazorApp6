@@ -32,7 +32,7 @@
     font-style: italic;
     font-size: 40px;
 }
-.f1p {
+.introduction-main-content {
     color: #1F4568;
     font-family: 'Lovelace', sans-serif;
     font-size: 19px;
@@ -70,4 +70,47 @@
         font-size: 9px;
         line-height: 1.6;
     }
+}
+@media (max-width: 300px) {
+
+    .introduction p {
+        font-size: 9px;
+       
+    }
+    .logo-image {
+        position: relative;
+        bottom: 20px;
+        /*border: 1px solid black;*/
+    }
+        .logo-image img {
+            /*border: 1px solid yellow;*/
+            height: 10%;
+            width: 60px;
+           position:relative;
+           bottom:20px;
+         
+        }
+    .introduction-content {
+        color: #1F4568;
+        font-family: 'Lovelace', sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        position:relative;
+        top:-50px;
+    }
+    .introduction-main-content {
+        color: #1F4568;
+        font-family: 'Lovelace', sans-serif;
+        font-size: 119px;
+        line-height: 1.4;
+    }
+    .f1p1 {
+        margin:10px;
+        color: #1F4568;
+        font-family: 'Lovelace', sans-serif;
+        font-size: 7px;
+        line-height: 1.3;
+        position:relative;
+        top:-20px;
+    }   
 }
