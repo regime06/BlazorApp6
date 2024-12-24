@@ -10,12 +10,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    border-bottom: 1px solid #ccc;
-    margin:0;
-    padding:0;
-
+    /*padding: 10px 20px;*/
+    background-color: transparent;
+    /*border-bottom: 1px solid #ccc;*/
+    margin: 0;
+    padding: 0;
 }
 
 .logo {

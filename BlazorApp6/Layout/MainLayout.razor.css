@@ -1,12 +1,12 @@
 /* Media Query for 390x840 cellphone */
 /* Media Query for 390x840 cellphone */
-/*@media (max-width: 1600px) {
+/*@media (max-width: 1600px) {*/
     .cw {
-        color: white;*/
+        color: white;
 
-/*font-size: 11px;*/
-/*}
-}*/
+font-size: 15px;
+}
+/*}*/
 .c2 {
     color: white;
     background-color: #11403D;

@@ -1,0 +1,109 @@
+﻿body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container-fluid {
+    background-image: url('image/backgrounds/backgrounds.jpg');
+    height:100vh;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 10px;
+    /*background: white;*/
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;*/
+    background-color:transparent;
+   
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-section, .info-section {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+    .form-section h2 {
+        margin-bottom: 15px;
+    }
+
+    .form-section form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    button:hover {
+        background-color: #34495e;
+    }
+
+.info-section {
+    border-left: 2px solid #eee;
+}
+
+    .info-section p {
+        margin: 5px 0;
+    }
+
+    .info-section h2 {
+        margin-bottom: 10px;
+    }
+
+    .info-section table {
+        margin-top: 10px;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .info-section th, .info-section td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .info-section th {
+        background: #f1f1f1;
+    }
+
+    .info-section a {
+        color: #2c3e50;
+        text-decoration: none;
+    }
+
+        .info-section a:hover {
+            text-decoration: underline;
+        }
