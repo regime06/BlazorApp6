@@ -1409,7 +1409,10 @@ body[b-yxspjk57z7] {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    /*padding: 50px;*/
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4ed;
     background-image: url('image/backgrounds/backgrounds.jpg');
     height: 100vh;
 }
