@@ -396,7 +396,7 @@
         }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 300px)and (max-height: 700px) {
     .chakra-content .content .text-content h1[b-2bdvy1rof9] {
         top: 14vh;
         position: relative;
@@ -412,12 +412,11 @@
     }
 
     .chakra-content .content .image img[b-2bdvy1rof9] {
-  
         justify-content: center;
         height: 100%;
         width: 50%;
         position: relative;
-        bottom: 50vh;
+        bottom: 60vh;
     }
 
     .chakra-content .content .text-content[b-2bdvy1rof9] {
@@ -692,36 +691,36 @@ button[b-yv2gd896lh] {
                 text-align:center;
             }
 }
-@media (max-width: 300px) {
-    .forensic-content[b-w12zp0pogw]{
-        height:100vh;
-    }
-    .forensic-content .content .text-content h1[b-w12zp0pogw] {
-        top: 14vh;
-        position: relative;
-        text-align: center;
-        font-size: 20px;
+@media (max-width: 300px) and (max-height: 700px) {
+    .forensic-content[b-w12zp0pogw] {
+        height: 100vh;
     }
 
-    .forensic-content .content .text-content p[b-w12zp0pogw] {
-        top: 14vh;
-        position: relative;
-        font-size: 10px;
-        text-align:center;
-    }
-    .forensic-content .content .image img[b-w12zp0pogw] {
-        
-        justify-content: center;
-        height: 100%;
-        width: 60%;
-        position: relative;
-        bottom: 55vh;
-    }
-    .forensic-content .content .text-content[b-w12zp0pogw] {
-       
-        text-align: center;
-    }
+        .forensic-content .content .text-content h1[b-w12zp0pogw] {
+            top: 16vh;
+            position: relative;
+            text-align: center;
+            font-size: 20px;
+        }
 
+        .forensic-content .content .text-content p[b-w12zp0pogw] {
+            top: 14vh;
+            position: relative;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .forensic-content .content .image img[b-w12zp0pogw] {
+            justify-content: center;
+            height: 100%;
+            width: 60%;
+            position: relative;
+            bottom: 70vh;
+        }
+
+        .forensic-content .content .text-content[b-w12zp0pogw] {
+            text-align: center;
+        }
 }
 /* /Pages/GrabACopy.razor.rz.scp.css */
 .grap-a-copy-content[b-ctpmvhzgkj] {
@@ -805,21 +804,21 @@ button[b-yv2gd896lh] {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 300px) and (max-height: 700px) {
     .grap-a-copy-content[b-ctpmvhzgkj] {
         width: 100%;
-        position:relative;
+        position: relative;
         height: 20vh;
-        margin:0;
-        padding:0;
-        top:-100px;
+        margin: 0;
+        padding: 0;
+        top: -90px;
     }
 
-    .grap-a-copy-content .circle-link :hover[b-ctpmvhzgkj] {
-        /*position: relative;*/
-        background-color: red;
-        /*transition: background-color 0.3s ease, transform 0.3s ease;*/
-    }
+        .grap-a-copy-content .circle-link :hover[b-ctpmvhzgkj] {
+            /*position: relative;*/
+            /*background-color: red;*/
+            /*transition: background-color 0.3s ease, transform 0.3s ease;*/
+        }
 }
 /* /Pages/HealingProgram.razor.rz.scp.css */
 
@@ -875,20 +874,18 @@ button[b-yv2gd896lh] {
     /*background-image: url('image/backgrounds/backgrounds.jpg');*/
     height: 40vh;
 }
-@media (max-width: 300px) {
-    .healing-program-content[b-2t8ajhi4vx] 
-    {
-        position:relative;
-        margin:0;
-        padding:0;
+@media (max-width: 300px) and (max-height: 700px) {
+    .healing-program-content[b-2t8ajhi4vx] {
+        position: relative;
+        margin: 0;
+        padding: 0;
         /*border:1px solid red;*/
-        top:-40px;
-        height:25vh;
-      
+        top: -5px;
+        height: 25vh;
     }
+
         .healing-program-content .healing-section h1[b-2t8ajhi4vx] {
             font-size: 20px;
-        
         }
 
         .healing-program-content .healing-section p[b-2t8ajhi4vx] {
@@ -896,11 +893,10 @@ button[b-yv2gd896lh] {
             /*margin-bottom: 30px;*/
             line-height: 1.5;
         }
+
         .healing-program-content .healing-button[b-2t8ajhi4vx] {
-            font-size:10px;
+            font-size: 10px;
         }
-            
-     
 }
 /* /Pages/Introduction.razor.rz.scp.css */
 div[b-t0m2fp3kxr] {
@@ -1189,12 +1185,14 @@ div[b-t0m2fp3kxr] {
 
 .manifest-content[b-8gphmxc9ui] {
     width: 100% !important;
+    /* border: 1px solid red;*/
     display: flex;
     align-items: center;
     justify-content: center;
+    /*padding: 50px;*/
     margin: 0;
     padding: 0;
-    /*background-color: #f9f4ed;*/
+    background-color: #f9f4ed;
     background-image: url('image/backgrounds/backgrounds.jpg');
     height: 100vh;
 }
@@ -1324,17 +1322,26 @@ div[b-t0m2fp3kxr] {
                 }
     }
 
-    @media (max-width: 300px) {
-        .manifest-content .content .text-content p[b-8gphmxc9ui] {
-            font-size: 10px;
-            text-align: center;
-        }
-
-        .manifest-content .content .text-content h1[b-8gphmxc9ui] {
-            font-size: 20px;
-            text-align: center;
-        }
+@media (max-width: 300px) and (max-height: 700px) {
+    .manifest-content .content .text-content p[b-8gphmxc9ui] {
+        font-size: 10px;
+        text-align: center;
     }
+
+    .manifest-content .content .text-content h1[b-8gphmxc9ui] {
+        font-size: 20px;
+        text-align: center;
+    }
+    .manifest-content .content .image img[b-8gphmxc9ui] {
+        /*border: 1px solid red;*/
+        width: 60%;
+    }
+    .manifest-content .content .text-content .button-container[b-8gphmxc9ui] {
+        text-align: center;
+        top:-10px;
+        position:relative;
+    }
+}
 /* /Pages/Programs/HealingPrograms.razor.rz.scp.css */
 body[b-o8vd51tc9u] {
     margin: 0;
@@ -1614,41 +1621,42 @@ body[b-yxspjk57z7] {
                 }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 300px) and (max-height: 700px) {
     /*.workshop-content .content .image img {*/
-        /*border: 1px solid red;*/
-        /*justify-content: center;
+    /*border: 1px solid red;*/
+    /*justify-content: center;
         height: 100%;
         width: 90%;
         position: relative;
         bottom: 130vh;
     }*/
-    .workshop-content[b-d6kbvaazrv]  {
+    .workshop-content[b-d6kbvaazrv] {
         display: inline-block;
         position: relative;
         /*border: 1px solid red;*/
-        margin:0;
-        padding:0;
-        
+        margin: 0;
+        padding: 0;
     }
-    .workshop-content .content .text-content p[b-d6kbvaazrv] {
-        position: relative;
-        /*top: 7vh;*/
-        font-size: 15px;
-    }
+
+        .workshop-content .content .text-content p[b-d6kbvaazrv] {
+            position: relative;
+            /*top: 7vh;*/
+            font-size: 15px;
+        }
+
         .workshop-content .content .text-content h1[b-d6kbvaazrv] {
             position: relative;
             top: 17vh;
             font-size: 15px;
-
         }
+
         .workshop-content .content .text-content h2[b-d6kbvaazrv] {
             position: relative;
             top: 2vh;
-            left:5%;
+            left: 5%;
             font-size: 15px;
         }
-     
+
         .workshop-content .content .text-content .bullet-container ul li[b-d6kbvaazrv] {
             font-size: 10px;
             text-align: left;
@@ -1657,14 +1665,16 @@ body[b-yxspjk57z7] {
             margin: 0;
             padding: 0;
         }
-    .workshop-content .content .image img[b-d6kbvaazrv] {
-        /*border: 1px solid red;*/
-        justify-content: center;
-        height: 100%;
-        width: 70%;
-        position: relative;
-        bottom: 70vh;
-    }
+
+        .workshop-content .content .image img[b-d6kbvaazrv] {
+            /*border: 1px solid red;*/
+            justify-content: center;
+            height: 100%;
+            width: 70%;
+            position: relative;
+            bottom: 86vh;
+        }
+
         .workshop-content .content .text-content .button-container[b-d6kbvaazrv] {
             position: relative;
             top: 50px;
